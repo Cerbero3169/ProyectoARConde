@@ -3138,8 +3138,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 113f160eed2d58e4b951d4b21ff1cb50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab1: {fileID: 6256605091717885751, guid: 2ff885046ae66e7459aadea8c7480b0f, type: 3}
-  enemyPrefab2: {fileID: 2409100275326074125, guid: 7f0d3a040490ebd41b334cf9dcbe65b4, type: 3}
+  enemyPrefab1: {fileID: 1454553534701731169, guid: badfdaaa90ed1f24fb61543440c5817b, type: 3}
+  enemyPrefab2: {fileID: 2060664422928015184, guid: 9898844f3f4cdcd43abdedea2b05739d, type: 3}
   spawnInterval: 3
   audioSource: {fileID: 438826442}
   spawnSound1: {fileID: 8300000, guid: 6214c417c0013e946a895d56377488fd, type: 3}
