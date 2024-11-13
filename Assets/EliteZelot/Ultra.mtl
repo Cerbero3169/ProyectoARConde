@@ -1,0 +1,152 @@
+# Blender MTL File: 'None'
+# Material Count: 12
+
+newmtl 24_Bodysuit_1_0_0
+Ns 900.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.000000 bodysuit_bump.png
+map_Kd bodysuit_diffuse.png
+map_Ks bodysuit_spec.png
+
+newmtl 24_FPBase_1_0_0
+Ns 900.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.073958 0.068341
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.000000 elite_fp_base_bump.png
+map_Kd elite_fp_base_diffuse.png
+map_Ks elite_fp_base_spec.png
+
+newmtl 24_Head_1_0_0
+Ns 900.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.000000 head_bump.png
+map_Kd head_diffuse.png
+map_Ks head_spec.png
+
+newmtl 26_BaseLower_0.21_0_0
+Ns 900.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.079886 0.099133
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.000000 base_lower_bump.png
+map_Kd base_lower_diffuse.png
+map_Ks base_lower_spec.png
+
+newmtl 26_BaseUpper_0.21_0_0
+Ns 900.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.000000 base_upper_bump.png
+map_Kd base_upper_diffuse.png
+map_Ks base_upper_spec.png
+
+newmtl 26_Chest_0.21_0_0
+Ns 900.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.000000 chest_bump.png
+map_Kd chest_diffuse.png
+map_Ks chest_spec.png
+
+newmtl 26_Gauntlet_0.21_0_0
+Ns 900.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.000000 gauntlet_bump.png
+map_Kd gauntlet_diffuse.png
+map_Ks gauntlet_spec.png
+
+newmtl 26_Helmet_0.21_0_0
+Ns 900.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.550000
+d 1.000000
+illum 1
+map_Bump helmet_bump.png
+map_Kd helmet_diffuse.png
+map_Ks helmet_spec.png
+
+newmtl 26_Shoulder_0.21_0_0
+Ns 900.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.000000 shoulder_bump.png
+map_Kd shoulder_diffuse.png
+map_Ks shoulder_spec.png
+
+newmtl 26_Thighs_0.21_0_0
+Ns 900.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 1.000000
+illum 2
+map_Bump -bm 0.000000 legs_bump.png
+map_Kd legs_diffuse.png
+map_Ks legs_spec.png
+
+newmtl 5_Eye_1_0_0
+Ns 323.999994
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl MAT_0_2
+Ns 225.000000
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 3
