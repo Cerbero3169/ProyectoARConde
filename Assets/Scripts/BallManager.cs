@@ -2,15 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class BallManager : MonoBehaviour
 {
     public GameObject ballPrefab; // Prefab de la bola
     public TextMeshProUGUI ammoText; // Referencia al texto de la UI para la munición
-    public int ammoCount = 100; // Cantidad inicial de munición
-    public int maxAmmo = 100; // Capacidad máxima de munición
+    public int ammoCount = 40; // Cantidad inicial de munición
+    public int maxAmmo = 40; // Capacidad máxima de munición
     public AudioSource shootSound; // Referencia al componente AudioSource para el sonido de disparo
-
+    public GameObject muzzleFlashPrefab;
     void Start()
     {
         UpdateAmmoText(); // Muestra la munición inicial
@@ -23,19 +24,24 @@ public class BallManager : MonoBehaviour
         {
             ammoCount--; // Reduce la munición en 1
             UpdateAmmoText(); // Actualiza la UI de munición
-
-            // Reproduce el sonido de disparo
+       // Reproduce el sonido de disparo
             shootSound.Play();
-
             // Crear una nueva bola y lanzarla
             GameObject newBall = Instantiate(ballPrefab);
             newBall.transform.position = Camera.main.transform.position + Camera.main.transform.forward;
             Rigidbody rigidbody = newBall.GetComponent<Rigidbody>();
             float force = 600.0f;
             rigidbody.AddForce(Camera.main.transform.forward * force);
+                        // Instancia el efecto de MuzzleFlash
+            GameObject muzzleFlash = Instantiate(muzzleFlashPrefab);
+            muzzleFlash.transform.position = Camera.main.transform.position + Camera.main.transform.forward * 2.0f - Camera.main.transform.up * 0.5f; // Ajuste para ubicar el efecto más abajo
+            muzzleFlash.transform.rotation = Camera.main.transform.rotation;
+            // Destruye el efecto después de 0.1 segundos para que no se quede en pantalla
+            Destroy(muzzleFlash, 0.1f);
         }
         else
         {
+            SceneManager.LoadScene("GameOver"); // Cambia a la escena GameOver
             Debug.Log("No hay munición para disparar");
         }
     }
