@@ -3589,7 +3589,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyCounterText: {fileID: 1494934625}
-  totalEnemiesToWin: 5
+  totalEnemiesToWin: 20
 --- !u!1 &1999516826
 GameObject:
   m_ObjectHideFlags: 0

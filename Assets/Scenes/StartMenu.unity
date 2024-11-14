@@ -1151,11 +1151,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'You will have 100 bullets to eliminate 50 enemies, you must do it before
+  m_text: 'You will have 40 bullets to eliminate 20 enemies, you must do it before
     the enemies end your life which is indicated on the bar.
 
     Damage changes
-    with difficulty 8,13,23 respectively
+    with difficulty 10,15,23 respectively
 
     Don''t forget to look around you as
     the enemies could be behind you, good hunting.'

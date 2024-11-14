@@ -39,16 +39,16 @@ public class EnemySpawner : MonoBehaviour
         switch (difficultyLevel)
         {
             case 0: // Easy
-                damage = 8;
+                damage = 10;
                 break;
             case 1: // Medium
-                damage = 13;
+                damage = 15;
                 break;
             case 2: // Hard
                 damage = 23;
                 break;
             default:
-                damage = 13; // Default to medium
+                damage = 15; // Default to medium
                 break;
         }
     }

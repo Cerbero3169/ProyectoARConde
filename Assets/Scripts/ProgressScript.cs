@@ -8,7 +8,7 @@ public class ProgressScript : MonoBehaviour
 {
     public static int numOfEnemyUnitsDestroyed; // Hacerlo público para acceso desde otros scripts
     [SerializeField] private TextMeshProUGUI enemyCounterText; // Cambiado a TextMeshProUGUI
-    [SerializeField] private int totalEnemiesToWin = 60; // Total de enemigos para ganar
+    [SerializeField] private int totalEnemiesToWin = 20; // Total de enemigos para ganar
 
     void Start()
     {
